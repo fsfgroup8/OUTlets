@@ -6,10 +6,9 @@
 
 /* Andres css */
 
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 0 150px 0; 
+#hero-section {
+    height: 50vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
 }

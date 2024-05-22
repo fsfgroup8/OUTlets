@@ -19,8 +19,8 @@ Welcome to OUTLet's, the perfect place to find a new event to attend in your are
 ## Contributors
 
 <a href="https://github.com/AndresAlbornozgil">Andres Albornoz</a><br>
-<a href="">Christian Cavazos</a><br>
-<a href="">Gale Salazar</a><br>
+<a href="https://github.com/Yearofthebenji">Christian Cavazos</a><br>
+<a href="https://github.com/galessalazar">Gale Salazar</a><br>
 <a href="https://github.com/swlodawski">Samuel Wlodawski</a><br>
 <a href="https://github.com/dstrzykalski">Daved Strzykalski</a><br>
 <a href="https://github.com/0-Sunny-0">Sunny Finch</a>

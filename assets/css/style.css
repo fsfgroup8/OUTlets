@@ -7,19 +7,9 @@
 
 /* Andres css */
 
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 150px 0 150px 0; 
-    font-family: "roboto", sans-serif;
-    font-weight: 500;
-    
-}
-
-.hero-section p {
-    font-family: "roboto", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+#hero-section {
+    height: 50vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
 }

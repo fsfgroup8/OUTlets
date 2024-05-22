@@ -13,3 +13,10 @@
     flex-direction: column !important;
     justify-content: center !important;
 }
+
+#main-section {
+    height: 50vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}

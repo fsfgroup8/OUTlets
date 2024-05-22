@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: auto;
     padding: 0;
+    font-family: "roboto", sans-serif;
 }
 
 /* Andres css */
@@ -12,4 +13,13 @@
     justify-content: center;
     align-items: center;
     padding: 150px 0 150px 0; 
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+.hero-section p {
+    font-family: "roboto", sans-serif;
+    font font-weight: 300;
+    font-size: 20px;
 }

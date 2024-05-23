@@ -1,3 +1,15 @@
+// ----------------- Global variables section below -----------------
+
+
+
+
+
+
+
+
+// ----------------- Functions section below -----------------
+
+
 fetch('https://api.chucknorris.io/jokes/random', {
   // The browser fetches the resource from the remote server.
   // The browser will then update new created element jokeEl with the downloaded resource.
@@ -29,3 +41,23 @@ const searchBtn = document.getElementById('search button');
 document.addEventListener('click', function() {
 // Event listener for html landing page search button.
 })
+
+
+
+
+
+
+
+
+
+
+// ----------------- Event listerner section below-----------------
+
+
+
+
+
+
+
+
+

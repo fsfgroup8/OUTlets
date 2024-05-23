@@ -10,8 +10,8 @@ fetch('https://api.chucknorris.io/jokes/random', {
   });
 
   fetch('GET https://api.predicthq.com/v1/events?phq_attendance.undefined=4500&category=politics HTTP/1.1 Accept: application/json Authorization: Bearer $pDEqATICrqDm36LtIs34vdH4G-Km8I0QemynrV5kaIBChmfIFdMig', {
-    // The browser fetches the resource from the remote server without first looking in the cache.
-    // The browser will then update the cache with the downloaded resource.
+    // The browser fetches the event data from the API.
+    // The browser will then update the application with new data.
 
   })
     .then(function (response) {

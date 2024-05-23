@@ -9,3 +9,9 @@ fetch('https://api.chucknorris.io/jokes/random', {
     console.log(data);
   });
 
+
+
+  const createRandomJoke = function(data) {
+    const jokeEl = document.createElement('div');
+    
+  }

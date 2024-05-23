@@ -25,6 +25,10 @@
     align-items: center !important;
 }
 
+#about-us {
+    font-size: 2em !important;
+}
+
 /* styles the hero section */
 #hero-section {
     height: 100% !important;

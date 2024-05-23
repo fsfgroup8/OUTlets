@@ -46,6 +46,7 @@
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    box-shadow: 5px 5px 5px gray;
 }
 
 /* styles the bottom section of the webpage */

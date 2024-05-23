@@ -12,6 +12,11 @@ fetch('https://api.chucknorris.io/jokes/random', {
 
 
   const createRandomJoke = function(data) {
-    const jokeEl = document.createElement('div');
-    
+    const jokeContainer = document.createElement('div')
+    const jokeEl = document.createElement('p');
+
+    jokeEl.setAttribute('style', 'color: black');
+
+    jokeContainer.append(jokeEl);
+
   }

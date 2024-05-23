@@ -5,6 +5,24 @@
     font-family: "roboto", sans-serif;
 }
 
+#outlets {
+    font-size: 3em !important;
+}
+
+#header {
+    background-color: gray;
+}
+
+#header a {
+    color: white;
+}
+
+#header span, li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 #hero-section {
     height: 100% !important;
     display: flex !important;
@@ -26,20 +44,18 @@
     justify-content: center !important;
 }
 
-#outlets {
-    font-size: 3em !important;
-}
-
-#header {
+#footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     background-color: gray;
+    margin: 0 !important;
+    height: 25vh;
 }
 
-#header a {
-    color: white;
-}
-
-#header span, li {
+#footer h3, p, li, a {
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;
+    color: white !important;
 }

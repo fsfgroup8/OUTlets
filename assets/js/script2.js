@@ -14,7 +14,8 @@ fetch('https://api.chucknorris.io/jokes/random', {
   const createRandomJoke = function(data) {
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
-// Add the values to snatch from the API object to deliver random joke will go here.
+// Add the values to snatch from the API object to deliver random joke will go below this comment.
+    jokeEl.textContent.categories[0].value('');
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);

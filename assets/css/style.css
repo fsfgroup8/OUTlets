@@ -5,10 +5,12 @@
     font-family: "roboto", sans-serif;
 }
 
+/* styles website name on upper-left corner of webpage */
 #outlets {
     font-size: 3em !important;
 }
 
+/* this section styles header & nav bar */
 #header {
     background-color: gray;
 }
@@ -23,6 +25,7 @@
     align-items: center !important;
 }
 
+/* styles the hero section */
 #hero-section {
     height: 100% !important;
     display: flex !important;
@@ -41,6 +44,7 @@
     justify-content: center !important;
 }
 
+/* styles the bottom section of the webpage */
 #bottom-section {
     height: 100% !important;
     display: flex !important;
@@ -48,6 +52,7 @@
     justify-content: center !important;
 }
 
+/* this section styles the footer */
 #footer {
     display: flex !important;
     flex-direction: column !important;

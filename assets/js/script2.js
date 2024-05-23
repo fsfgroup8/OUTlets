@@ -38,3 +38,9 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
   }
 
   createUserLocation();
+
+
+  const createUserEvent = function() {
+
+  }
+//   This will be the function that creates the user event suggestions based on the user's interests and location.

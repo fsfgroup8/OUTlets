@@ -6,7 +6,7 @@
 }
 
 #hero-section {
-    height: 50vh !important;
+    height: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -20,8 +20,26 @@
 }
 
 #bottom-section {
-    height: 50vh !important;
+    height: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+}
+
+#outlets {
+    font-size: 3em !important;
+}
+
+#header {
+    background-color: gray;
+}
+
+#header a {
+    color: white;
+}
+
+#header span, li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }

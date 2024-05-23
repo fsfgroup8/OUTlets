@@ -5,8 +5,6 @@
     font-family: "roboto", sans-serif;
 }
 
-/* Andres css */
-
 #hero-section {
     height: 50vh !important;
     display: flex !important;
@@ -15,6 +13,13 @@
 }
 
 #main-section {
+    height: 50vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+#bottom-section {
     height: 50vh !important;
     display: flex !important;
     flex-direction: column !important;

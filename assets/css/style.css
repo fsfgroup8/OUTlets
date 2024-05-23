@@ -30,6 +30,10 @@
     justify-content: center !important;
 }
 
+#hero-section p {
+ color: black !important;
+}
+
 #main-section {
     height: 50vh !important;
     display: flex !important;

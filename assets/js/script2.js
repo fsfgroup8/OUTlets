@@ -55,13 +55,20 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
   const createUserEvent = function() {
 
   }
+
+  createUserEvent();
 //   This will be the function that creates the user event suggestions based on the user's interests and location.
+
+
+
 
 // Below will be a functon to merge the two data points and output the combined result.
 
 const createEventSuggestion = function(data1, data2) {
 
 }
+
+createEventSuggestion();
 
 
 

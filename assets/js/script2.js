@@ -17,8 +17,8 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
   .then(function (response) {
     return response.json();
   })
-  .then(function (data) {
-    console.log(data);
+  .then(function (data1) {
+    console.log(data1);
   });
 
   
@@ -30,11 +30,11 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
     .then(function (response) {
       return response.json();
     })
-    .then(function (data) {
-      console.log(data);
+    .then(function (data2) {
+      console.log(data2);
     });
 
-  const createUserLocation = function(data) {
+  const createUserLocation = function(data2) {
     const userLocationContainer = document.createElement('div')
     const userLocationTitle = document.createElement('h3')
     const userLocationCity = document.createElement('h4')
@@ -57,6 +57,11 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
   }
 //   This will be the function that creates the user event suggestions based on the user's interests and location.
 
+// Below will be a functon to merge the two data points and output the combined result.
+
+const createEventSuggestion = function(data1, data2) {
+
+}
 
 
 
@@ -65,8 +70,7 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
 
 
 
-
-// ----------------- Event listerner section below-----------------
+// ----------------- Event listener section below-----------------
 
 
 

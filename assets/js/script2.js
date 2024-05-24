@@ -22,7 +22,7 @@ fetch('https://api.positionstack.com/v1/forward? access_key = ec3c837ab8d9eaa67a
   });
 
   
-  fetch('GET https://api.predicthq.com/v1/events?phq_attendance.undefined=4500&category=politics HTTP/1.1 Accept: application/json Authorization: Bearer $pDEqATICrqDm36LtIs34vdH4G-Km8I0QemynrV5kaIBChmfIFdMig', {
+  fetch('GET https://api.predicthq.com/v1/events HTTP/1.1 Accept: application/json Authorization: dxKKKuK5-dI $dzguvnsi5sFnOMIG7JAnu6MqNZ__5XmXJjhkxa2QRBCxFAAP7fVTXg', {
     // The browser fetches the event data from the API.
     // The browser will then update the application with new data.
 

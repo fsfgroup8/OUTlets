@@ -1,8 +1,13 @@
+* {
+    font-family: "Black And White Picture", system-ui !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
 :root {
     box-sizing: border-box;
     margin: auto;
     padding: 0;
-    font-family: "roboto", sans-serif;
 }
 
 /* styles website name on upper-left corner of webpage */
@@ -12,33 +17,47 @@
 
 /* this section styles header & nav bar */
 #header {
-    background-color: gray;
+    background-color: black !important;
+    margin: 0 !important;
 }
 
 #header a {
     color: white;
 }
 
-#header span, li {
+#header img, li {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
 }
 
-#about-us {
+header img {
+    height: 100px !important;
+    width: 165px !important;
+}
+
+#find-adventure {
     font-size: 2em !important;
+    color: #FEB941 !important;
 }
 
 /* styles the hero section */
 #hero-section {
-    height: 100% !important;
+    height: 100vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    background-image: url(../images/OUTlets_hero.png) !important;
+    background-size: cover;
+    background-position: center;
+    margin: 0 !important;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    color: black !important;
 }
 
 #hero-section p {
- color: black !important;
+    padding-bottom: 250px;
 }
 
 #main-section {
@@ -46,14 +65,25 @@
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    background-color: #FDE49E !important;
+    margin: 0 !important;
+    color: black !important;
+}
+
+#search-button {
+    border: solid black 2px;
 }
 
 /* styles the bottom section of the webpage */
 #bottom-section {
-    height: 100% !important;
+    height: 30vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    background-color: #FDE49E !important;
+    color: black !important;
+    margin: 0 !important;
+    border-bottom: dashed black 10px;
 }
 
 /* this section styles the footer */
@@ -62,7 +92,7 @@
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    background-color: gray;
+    background-color: black !important;
     margin: 0 !important;
     height: 25vh;
 }
@@ -70,5 +100,20 @@
 #footer h3, p, li, a {
     display: flex !important;
     justify-content: center !important;
-    color: white !important;
+}
+
+footer h3 {
+    color: #DD761C !important;
+}
+
+footer li {
+    color: #FEB941 !important;
+}
+
+footer a {
+    color: #6DC5D1 !important;
+}
+
+footer p {
+    color: #FEB941 !important;
 }

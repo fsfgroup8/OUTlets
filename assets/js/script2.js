@@ -71,7 +71,10 @@ fetch('https://api.positionstack.com/v1/forward? access_key=ec3c837ab8d9eaa67a16
     }
 
     createUserEvent();
-// This function will fectch and event an display it based on ther users interests.
+// This function will fetch and event an display it based on ther users interests.
+
+
+
 
 
 

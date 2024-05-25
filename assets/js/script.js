@@ -1,6 +1,6 @@
 // ----------------- Global variables section below -----------------
 
-
+const jokeDiv = document.getElementById('joke-div');
 
 
 
@@ -9,6 +9,7 @@
 
 // ----------------- Functions section below -----------------
 
+function dataTest() {
 
 fetch('https://api.chucknorris.io/jokes/random', {
   // The browser fetches the resource from the remote server.
@@ -20,12 +21,13 @@ fetch('https://api.chucknorris.io/jokes/random', {
   .then(function (data) {
     console.log(data);
   });
+}
 
-  const createRandomJoke = function(data) {
+  const createRandomJoke = function(data2) {
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
 // Add the values to snatch from the API object to deliver random joke will go below this comment.
-    jokeEl.textContent.categories[0].value('');
+    jokeEl.data2.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);

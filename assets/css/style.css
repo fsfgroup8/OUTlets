@@ -32,6 +32,7 @@
 }
 
 header img {
+    display: flex !important;
     height: 100px !important;
     width: 165px !important;
 }
@@ -60,7 +61,7 @@ header img {
     }
 }
 
-/* styles the hero section */
+/* Hero section styles */
 #hero-section {
     height: 100vh !important;
     display: flex !important;
@@ -79,6 +80,7 @@ header img {
     padding-bottom: 27%;
 }
 
+/* Main section styles */
 #main-section {
     height: 50vh !important;
     display: flex !important;
@@ -93,7 +95,7 @@ header img {
     border: solid black 2px;
 }
 
-/* styles the bottom section of the webpage */
+/* Bottom section styles */
 #bottom-section {
     height: 30vh !important;
     display: flex !important;
@@ -105,7 +107,7 @@ header img {
     border-bottom: dashed black 10px;
 }
 
-/* this section styles the footer */
+/* Footer section styles */
 #footer {
     display: flex !important;
     flex-direction: column !important;
@@ -113,10 +115,11 @@ header img {
     justify-content: center !important;
     background-color: black !important;
     margin: 0 !important;
-    height: 25vh;
+    padding: 1rem 0;
+    height: auto;
 }
 
-#footer h3, p, li, a {
+#footer h3, #footer p, #footer li, #footer a {
     display: flex !important;
     justify-content: center !important;
 }
@@ -135,4 +138,37 @@ footer a {
 
 footer p {
     color: #FEB941 !important;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #header img {
+        height: 80px !important;
+        width: auto !important;
+    }
+
+    #back {
+        font-size: 1.5em !important;
+    }
+
+    #main-section {
+        padding: 1rem;
+    }
+
+    #footer {
+        padding: 0.5rem 0;
+    }
+
+    #hero-section, #main-section, #bottom-section {
+        height: auto !important;
+        padding: 2rem 1rem;
+    }
+
+    #hero-section p {
+        padding-bottom: 2rem;
+    }
 }

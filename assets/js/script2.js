@@ -39,6 +39,12 @@ fetch(qURL, options)
 });
 
 const createEventCard = function() {
+
+    // if(eventLocation && eventType) {console.log(createEventCard)}
+    // else {console.log('no events found')};
+
+    // I am thinking this could be the beginning of the conditional logic to verify event type and location
+
     const eventContainer = document.createElement('.divContainer');
     const eventCard = document.createElement('div');
     const eventTitle = document.createElement('h1');

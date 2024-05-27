@@ -40,6 +40,22 @@ fetch(qURL, options)
 
 const createEventCard = function() {
 
+    // Potential values to grab from API
+    // Is put the syntax based on the key value address in the data object
+    // events.title
+    // events.type
+    // events.venue
+    // events.venue.city
+    // events.venue.postal_code
+
+
+    // Or geolocation data
+    // events.location.state
+    // events.venue.city
+    // events.venue.postal_code
+    // events.location.lat & lon
+    // IP Address
+
     // if(eventLocation && eventType) {console.log(createEventCard)}
     // else {console.log('no events found')};
 
@@ -53,19 +69,6 @@ const createEventCard = function() {
     const eventZip = document.createElement('h3');
     const eventVenue = document.createElement('h3');
 
-
-    // Potential values to grab from API
-    // Title
-    // Type
-    // City
-    // Zip
-    // Venue
-
-    // Or geolocation data
-    // lat & long
-    // City
-    // Zip
-    // IP Address
 
     eventContainer.append(eventTitle, eventType, eventZip, eventVenue);
 }

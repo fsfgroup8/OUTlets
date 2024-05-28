@@ -21,7 +21,6 @@ eventType = document.getElementById('event-type');
 // // ----------------- Functions section below -----------------
 
 
-
 fetch('https://api.chucknorris.io/jokes/random', {
   // The browser fetches the resource from the remote server.
   // The browser will then update new created element jokeEl with the downloaded resource.

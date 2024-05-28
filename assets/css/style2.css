@@ -18,6 +18,7 @@
 /* this section styles header & nav bar */
 #header {
     background-color: black !important;
+    margin: 0 !important;
 }
 
 #header a {
@@ -31,6 +32,29 @@
 }
 
 header img {
+    display: flex !important;
+    height: 100px !important;
+    width: 165px !important;
+}
+
+/* this section styles header & nav bar */
+#header {
+    background-color: black !important;
+    margin: 0 !important;
+}
+
+#header a {
+    color: white;
+}
+
+#header img, li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+header img {
+    display: flex !important;
     height: 100px !important;
     width: 165px !important;
 }
@@ -40,13 +64,7 @@ header img {
     color: #FEB941 !important;
 }
 
-
-
-
-
-
-
-/* Here would go styling for body of the page (This is just a temporary placeholder*/
+/* Main section styles */
 #main-section {
     height: 100vh;
     margin: 0 !important;
@@ -54,16 +72,10 @@ header img {
     border-top: solid black 5px;
     border-bottom: dashed black 10px;
     background-color: #FDE49E;
+    padding: 2rem;
 }
 
-
-
-
-
-
-
-
-/* this section styles the footer */
+/* Footer section styles */
 #footer {
     display: flex !important;
     flex-direction: column !important;
@@ -71,10 +83,11 @@ header img {
     justify-content: center !important;
     background-color: black !important;
     margin: 0 !important;
-    height: 25vh;
+    padding: 1rem 0;
+    height: auto;
 }
 
-#footer h3, p, li, a {
+#footer h3, #footer p, #footer li, #footer a {
     display: flex !important;
     justify-content: center !important;
 }
@@ -93,4 +106,28 @@ footer a {
 
 footer p {
     color: #FEB941 !important;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #header img {
+        height: 80px !important;
+        width: auto !important;
+    }
+
+    #back {
+        font-size: 1.5em !important;
+    }
+
+    #main-section {
+        padding: 1rem;
+    }
+
+    #footer {
+        padding: 0.5rem 0;
+    }
 }

@@ -1,5 +1,13 @@
 // // ----------------- Global variables section below -----------------
 
+searchBtn = document.getElementById('search-button');
+ageRange = document.getElementById('age-range');
+cityList = document.getElementById('city-list1');
+hobbyList = document.getElementById('hobby-list1');
+eventType = document.getElementById('event-type');
+
+
+
 // const jokeDiv = document.getElementById('joke-div');
 
 

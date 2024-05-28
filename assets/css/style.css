@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #FDE49E;
+}
+
 /* styles website name on upper-left corner of webpage */
 #outlets {
     font-size: 3em !important;
@@ -89,6 +93,19 @@ header img {
     background-color: #FDE49E !important;
     margin: 0 !important;
     color: black !important;
+}
+
+.questionaire {
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: black;
+    font-size: 1.5em;
+    background-color: #FDE49E;
+    border: solid black 3px;
 }
 
 #search-button {
@@ -172,3 +189,66 @@ footer p {
         padding-bottom: 2rem;
     }
 }
+
+/* styling for the modal
+.pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
+
+.pModal {
+    background-color: #6DC5D1;
+    color: white;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #6DC5D1;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 25px 20px;
+    background-color: #6DC5D1;
+    color: white;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #FDE49E;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #DD761C;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 ;
+}
+
+.btn-btn-secondary {
+    color: #DD761C;
+    background-color: white;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-btn-primary {
+    color: #DD761C;
+    background-color: white;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-close {
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Stylings for the input form */

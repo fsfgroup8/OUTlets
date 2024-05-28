@@ -1,14 +1,5 @@
 // ----------------- Global variables section below -----------------
 
-
-
-
-
-
-
-
-// ----------------- Functions section below -----------------
-
 const url = 'https://api.seatgeek.com/2'
 const apiKey = 'efd618d723ac9af1b3cb310dd19590338cd98b5bd32204a2e633c7bdcfb2f5f9'
 const clientId = 'NDE4MTc1OTZ8MTcxNjY2OTE4NC43MTg5Nw'
@@ -23,6 +14,10 @@ const options = {
   method: 'GET',
   headers: headers,
 };
+
+
+// ----------------- Functions section below -----------------
+
 
 fetch(qURL, options)
 .then(response => {
@@ -68,7 +63,7 @@ const createEventCard = function() {
     const eventCity = document.createElement('h3');
     const eventZip = document.createElement('h3');
     const eventVenue = document.createElement('h3');
-
+``
 
     eventContainer.append(eventTitle, eventType, eventZip, eventVenue);
 }
@@ -76,7 +71,7 @@ const createEventCard = function() {
 createEventCard();
 
 
-// // ----------------- Event listener section below-----------------
+// ----------------- Event listener section below-----------------
 
 
 

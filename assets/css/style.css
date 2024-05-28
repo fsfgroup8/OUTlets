@@ -98,6 +98,8 @@ header img {
     justify-content: center;
     align-items: center;
     margin: auto;
+    background-color: #FDE49E;
+    border: solid black 2px;
 }
 
 #search-button {

@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #FDE49E;
+}
+
 /* styles website name on upper-left corner of webpage */
 #outlets {
     font-size: 3em !important;
@@ -93,13 +97,15 @@ header img {
 
 .questionaire {
     display: flex;
-    width: 70%;
+    width: 20%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
+    color: black;
+    font-size: 1.5em;
     background-color: #FDE49E;
-    border: solid black 2px;
+    border: solid black 3px;
 }
 
 #search-button {

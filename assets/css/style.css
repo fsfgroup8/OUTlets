@@ -91,6 +91,15 @@ header img {
     color: black !important;
 }
 
+.questionaire {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 #search-button {
     border: solid black 2px;
 }

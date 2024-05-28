@@ -95,6 +95,16 @@ header img {
     border: solid black 2px;
 }
 
+form {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+
 /* Bottom section styles */
 #bottom-section {
     height: 30vh !important;

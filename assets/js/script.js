@@ -5,10 +5,14 @@ ageRange = document.getElementById('age-range');
 cityList = document.getElementById('city-list1');
 hobbyList = document.getElementById('hobby-list1');
 eventType = document.getElementById('event-type');
-
+// I created variables for the relevant form inputs and submit button
 
 // // ----------------- Event listener section below-----------------
 
+
+// searchBtn.addEventListener('click', function() {
+// console.log(searchBtn)
+// })
 document.addEventListener('click', function() {
   // Code to be executed when the "find Adventure" button is clicked
   if (confirm("Are you sure you want to find an adventure?")) {
@@ -19,6 +23,7 @@ document.addEventListener('click', function() {
 });
 // // Event listener for html landing page search button.
 // })
+
 
 
 

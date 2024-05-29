@@ -9,9 +9,10 @@ eventType = document.getElementById('event-type');
 
 // // ----------------- Event listener section below-----------------
 
-// document.addEventListener('click', function() {
-// // Event listener for html landing page search button.
-// })
+
+searchBtn.addEventListener('click', function() {
+console.log(searchBtn)
+})
 
 
 

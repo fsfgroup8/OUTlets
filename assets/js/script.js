@@ -13,6 +13,17 @@ eventType = document.getElementById('event-type');
 searchBtn.addEventListener('click', function() {
 console.log(searchBtn)
 })
+document.addEventListener('click', function() {
+  // Code to be executed when the "find Adventure" button is clicked
+  if (confirm("Are you sure you want to find an adventure?")) {
+
+  } else {
+    
+  }
+});
+// // Event listener for html landing page search button.
+// })
+
 
 
 

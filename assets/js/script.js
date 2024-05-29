@@ -5,7 +5,7 @@ ageRange = document.getElementById('age-range');
 cityList = document.getElementById('city-list1');
 hobbyList = document.getElementById('hobby-list1');
 eventType = document.getElementById('event-type');
-
+// I created variables for the relevant form inputs and submit button
 
 // // ----------------- Event listener section below-----------------
 

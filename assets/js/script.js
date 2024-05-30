@@ -7,22 +7,6 @@ hobbyList = document.getElementById('hobby-list1');
 eventType = document.getElementById('event-type');
 // I created variables for the relevant form inputs and submit button
 
-// // ----------------- Event listener section below-----------------
-
-
-// searchBtn.addEventListener('click', function() {
-// console.log(searchBtn)
-// })
-searchBtn.addEventListener('click', function() {
-  const modal = document.getElementById('exModal');
-  const modalInstance = new bootstrap.Modal(modal);
-  modalInstance.show();
-});
-// // Event listener for html landing page search button.
-// })
-
-
-
 
 // const jokeDiv = document.getElementById('joke-div');
 
@@ -56,3 +40,18 @@ searchBtn.addEventListener('click', function() {
 
   createRandomJoke();
 
+  
+
+// // ----------------- Event listener section below-----------------
+
+
+// searchBtn.addEventListener('click', function() {
+// console.log(searchBtn)
+// })
+searchBtn.addEventListener('click', function() {
+  const modal = document.getElementById('exModal');
+  const modalInstance = new bootstrap.Modal(modal);
+  modalInstance.show();
+});
+// // Event listener for html landing page search button.
+// })

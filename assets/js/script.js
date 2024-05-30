@@ -52,7 +52,7 @@ fetch('https://api.chucknorris.io/jokes/random', {
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);
-
+    document.body.appendChild(jokeContainer);
   }
 
   createRandomJoke();

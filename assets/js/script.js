@@ -30,7 +30,9 @@ searchBtn.addEventListener('click', function() {
 // // ----------------- Functions section below -----------------
 
 
-fetch('https://api.chucknorris.io/jokes/random', {
+
+  const createRandomJoke = function(data) {
+    fetch('https://api.chucknorris.io/jokes/random', {
   // The browser fetches the resource from the remote server.
   // The browser will then update new created element jokeEl with the downloaded resource.
 })
@@ -39,40 +41,18 @@ fetch('https://api.chucknorris.io/jokes/random', {
   })
   .then(function (data) {
     console.log(data.value);
-  });
-
-  const createRandomJoke = function(data) {
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
-// Add the values to snatch from the API object to deliver random joke will go below this comment.
+    // Add the values to snatch from the API object to deliver random joke will go below this comment.
     jokeEl.textContent = data.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);
     document.body.appendChild(jokeContainer);
-  }
+  });
+}
+
+
 
   createRandomJoke();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

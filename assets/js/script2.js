@@ -6,6 +6,34 @@
 // eventType = document.getElementById('event-type');
 // The variables for the removeEventListenerlevant for input areas and submit button
 
+const url = 'https://api.seatgeek.com/2/venues?city={this will grab form value from hobby list 1 value}'
+const apiKey = 'efd618d723ac9af1b3cb310dd19590338cd98b5bd32204a2e633c7bdcfb2f5f9'
+const clientId = 'NDE4MTc1OTZ8MTcxNjY2OTE4NC43MTg5Nw'
+const events = 'events'
+const qURL = `${url}/${events}?client_id=${clientId}`
+
+const headers = {
+  'X-API-Key': apiKey,
+};
+
+const options = {
+  method: 'GET',
+  headers: headers,
+};
+  fetch(qURL, options)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+
 // Much of this is a suggestion. Many of the already existing interactive elements have not been passed in yet.
 
 // // const form = 
@@ -23,38 +51,13 @@
 // //   document.getElementById('activity-type').value;
 // This will reference the input for activity type and grab value the user enters.
 
-//   const url = 'https://api.seatgeek.com/2'
-//   const apiKey = 'efd618d723ac9af1b3cb310dd19590338cd98b5bd32204a2e633c7bdcfb2f5f9'
-//   const clientId = 'NDE4MTc1OTZ8MTcxNjY2OTE4NC43MTg5Nw'
-//   const events = 'events'
-//   const qURL = `${url}/${events}?client_id=${clientId}`
-  
-//   const headers = {
-//     'X-API-Key': apiKey,
-//   };
-  
-//   const options = {
-//     method: 'GET',
-//     headers: headers,
-//   };
+
   
   
 //   // ----------------- Functions section below -----------------
 //  This will grab the api info we desire. Pass in the api key info and create a header variable to store that info then create a options variable to store the GET Method itself 
   
-//   fetch(qURL, options)
-//   .then(response => {
-//     if (!response.ok) {
-//       throw new Error(`HTTP error! Status: ${response.status}`);
-//     }
-//     return response.json();
-//   })
-//   .then(data => {
-//     console.log(data);
-//   })
-//   .catch(error => {
-//     console.error('Error:', error);
-//   });
+
 // This will log the info gathered and convert it to JSON after verifying there are no errors in retrieval. If there are errors the relevant message will show aka status.
 // })
 // Below might be redundant since it does some of the things the above does.
@@ -65,7 +68,7 @@
 // // activitiesList.innerHTML="";
 // I am setting a empty string to recieve the response
 // // data.forEach(activity => {
-    // I am saying I want to iterate through each item in the array and preform an operation on each object.
+//     I am saying I want to iterate through each item in the array and preform an operation on each object.
 // //   const activityElement.innerHTML = document.createElement('div');
 // I am creating a div element to store the returned location and activity type data.
 // //   activityElement.innerHTML = 
@@ -87,7 +90,7 @@
 // //     // events.venue
 // //     // events.venue.city
 // //     // events.venue.postal_code
-//This was the location of various key value pairs found within the seat geek data object we returned.
+// This was the location of various key value pairs found within the seat geek data object we returned.
 
 // //     // Or geolocation data
 // //     // events.location.state

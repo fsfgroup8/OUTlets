@@ -41,14 +41,14 @@ fetch('https://api.chucknorris.io/jokes/random', {
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
+    console.log(data.value);
   });
 
-  const createRandomJoke = function(data2) {
+  const createRandomJoke = function(data) {
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
 // Add the values to snatch from the API object to deliver random joke will go below this comment.
-    jokeEl.data2.value;
+    jokeEl.data.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);

@@ -49,49 +49,52 @@ footer p {
 /* styling for the modal
 .pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
 .pModal {
-    background-color: #6DC5D1;
+    background-color: black;
     color: white;
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #6DC5D1;
-    color: white;
+    padding: 10px 10px;
+    padding-left: 5%;
+    background-color: black;
+    color: #FEB941;
 }
 
 .modal-body {
-    padding: 2px 16px;
+    padding: 20px 20px;
 }
 
 .modal-footer {
     padding: 25px 20px;
-    background-color: #6DC5D1;
+    background-color: black;
     color: white;
 }
 
 .modal-content {
     position: relative;
-    background-color: #FDE49E;
+    background-color: #6DC5D1;
+    color: black;
+    font-weight: bolder;
     margin: auto;
     padding: 0;
-    border: 1px solid #DD761C;
-    width: 35%;
+    border: 1px solid black;
     box-shadow: 0 4px 8px 0 ;
+    font-size: 24px;
 }
 
 .btn-btn-secondary {
-    color: #DD761C;
-    background-color: white;
+    color: white;
+    background-color: red;
     float: right;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .btn-btn-primary {
-    color: #DD761C;
-    background-color: white;
+    color: white;
+    background-color: green;
     float: right;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
 }
 

@@ -10,6 +10,28 @@
     padding: 0;
 }
 
+header img {
+    display: flex !important;
+    height: 100px !important;
+    width: 165px !important;
+}
+
+footer h3 {
+    color: #DD761C !important;
+}
+
+footer li {
+    color: #FEB941 !important;
+}
+
+footer a {
+    color: #6DC5D1 !important;
+}
+
+footer p {
+    color: #FEB941 !important;
+}
+
 /* styles website name on upper-left corner of webpage */
 #outlets {
     font-size: 3em !important;
@@ -31,12 +53,6 @@
     align-items: center !important;
 }
 
-header img {
-    display: flex !important;
-    height: 100px !important;
-    width: 165px !important;
-}
-
 /* this section styles header & nav bar */
 #header {
     background-color: black !important;
@@ -53,12 +69,6 @@ header img {
     align-items: center !important;
 }
 
-header img {
-    display: flex !important;
-    height: 100px !important;
-    width: 165px !important;
-}
-
 #back {
     font-size: 2em !important;
     color: #FEB941 !important;
@@ -71,7 +81,7 @@ header img {
     border-bottom: solid black 5px;
     border-top: solid black 5px;
     border-bottom: dashed black 10px;
-    background-color: #FDE49E;
+    background-color: #fde49ec5;
     padding: 2rem;
 }
 
@@ -90,22 +100,6 @@ header img {
 #footer h3, #footer p, #footer li, #footer a {
     display: flex !important;
     justify-content: center !important;
-}
-
-footer h3 {
-    color: #DD761C !important;
-}
-
-footer li {
-    color: #FEB941 !important;
-}
-
-footer a {
-    color: #6DC5D1 !important;
-}
-
-footer p {
-    color: #FEB941 !important;
 }
 
 /* Responsive styles */

@@ -1,63 +1,58 @@
 // // ----------------- Global variables section below -----------------
 
-searchBtn = document.getElementById('search-button');
-ageRange = document.getElementById('age-range');
-cityList = document.getElementById('city-list1');
-hobbyList = document.getElementById('hobby-list1');
-eventType = document.getElementById('event-type');
-
-
-// // ----------------- Event listener section below-----------------
-
-// document.addEventListener('click', function() {
-// // Event listener for html landing page search button.
-// })
-
-
-
-// const jokeDiv = document.getElementById('joke-div');
+const searchBtn = document.getElementById('search-button');
+const cityList = document.getElementById('city-list');
+const eventType = document.getElementById('event-type');
+const fetchAPIButton = document.getElementById('fetch-api-button');
 
 
 // // ----------------- Functions section below -----------------
 
 
-fetch('https://api.chucknorris.io/jokes/random', {
-  // The browser fetches the resource from the remote server.
-  // The browser will then update new created element jokeEl with the downloaded resource.
-})
+  // Fetches & renders Chuck Norris Jokes
+  const createRandomJoke = function(data) {
+    fetch('https://api.chucknorris.io/jokes/random?category=history,dev,money,sport,science,animal', {
+      // Here is the url with the  different categories. We can decide which we want https://api.chucknorris.io/jokes/categories
+  })
   .then(function (response) {
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
-  });
-
-  const createRandomJoke = function(data2) {
+    console.log(data.value);
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
-// Add the values to snatch from the API object to deliver random joke will go below this comment.
-    jokeEl.data2.value;
+    const actualJokeContainer = document.getElementById('joke-container')
+
+    jokeEl.textContent = data.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);
+    actualJokeContainer.appendChild(jokeContainer);
+  });
+} 
 
-  }
-
-  createRandomJoke();
-
-
-
+createRandomJoke();
 
 
+// ----------------- Event listener section below-----------------
 
+// Event listener for html landing page search button.
+searchBtn.addEventListener('click', function() {
+  const modal = document.getElementById('exModal');
+  const modalInstance = new bootstrap.Modal(modal);
+  modalInstance.show();
+});
 
+// Saves user's selections to local storage & goes on to the next page of the site
+fetchAPIButton.addEventListener('click', function() {
+  const citySelection = cityList.value;
+  const eventSelection = eventType.value;
 
+  localStorage.setItem('citySelection', citySelection);
+  localStorage.setItem('eventSelection', eventSelection);
 
-
-
-
-
-
+  window.location.href = '/index2.html'
+})
 
 
 

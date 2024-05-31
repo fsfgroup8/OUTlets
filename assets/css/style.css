@@ -11,8 +11,105 @@
 }
 
 body {
-    background-color: #FDE49E;
+    background-color: #fde49ec5;
 }
+
+header img {
+    height: 100px !important;
+    width: 165px !important;
+}
+
+footer h3 {
+    color: #DD761C !important;
+}
+
+footer li {
+    color: #FEB941 !important;
+}
+
+footer a {
+    color: #6DC5D1 !important;
+}
+
+footer p {
+    color: #FEB941 !important;
+}
+
+.questionaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5em;
+    background-color: #FDE49E;
+    border: solid black 3px;
+}
+
+/* styling for the modal
+.pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
+.pModal {
+    background-color: black;
+    color: white;
+}
+
+.modal-header {
+    padding: 10px 10px;
+    padding-left: 5%;
+    background-color: black;
+    color: #FEB941;
+}
+
+.modal-body {
+    padding: 20px 20px;
+}
+
+.modal-footer {
+    padding: 25px 20px;
+    background-color: black;
+    color: white;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #6DC5D1;
+    color: black;
+    font-weight: bolder;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 ;
+    font-size: 24px;
+}
+
+.btn-btn-secondary {
+    color: white;
+    background-color: red;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-btn-primary {
+    color: white;
+    background-color: green;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-close {
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Stylings for the input form */
 
 /* styles website name on upper-left corner of webpage */
 #outlets {
@@ -30,39 +127,14 @@ body {
 }
 
 #header img, li {
-    display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-}
-
-header img {
-    display: flex !important;
-    height: 100px !important;
-    width: 165px !important;
 }
 
 #find-adventure {
     font-size: 2em !important;
     color: #FEB941 !important;
     animation: waveText 2s linear;
-}
-
-@keyframes waveText {
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-10px);
-    }
-    50% {
-        transform: translateX(10px);
-    }
-    75% {
-        transform: translateX(-10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 /* Hero section styles */
@@ -81,46 +153,36 @@ header img {
 }
 
 #hero-section p {
-    padding-bottom: 27%;
+ font-size: 1.5em;
+}
+
+#joke-container div {
+ color: white;
 }
 
 /* Main section styles */
 #main-section {
+    width: 50%;
     height: 50vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
-    background-color: #FDE49E !important;
-    margin: 0 !important;
     color: black !important;
-}
-
-.questionaire {
-    display: flex;
-    width: 20%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-    color: black;
-    font-size: 1.5em;
-    background-color: #FDE49E;
-    border: solid black 3px;
 }
 
 #search-button {
+    margin-top: 1em;
     border: solid black 2px;
 }
 
 /* Bottom section styles */
 #bottom-section {
-    height: 30vh !important;
+    height: 20vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
-    background-color: #FDE49E !important;
     color: black !important;
-    margin: 0 !important;
     border-bottom: dashed black 10px;
 }
 
@@ -139,22 +201,6 @@ header img {
 #footer h3, #footer p, #footer li, #footer a {
     display: flex !important;
     justify-content: center !important;
-}
-
-footer h3 {
-    color: #DD761C !important;
-}
-
-footer li {
-    color: #FEB941 !important;
-}
-
-footer a {
-    color: #6DC5D1 !important;
-}
-
-footer p {
-    color: #FEB941 !important;
 }
 
 /* Responsive styles */
@@ -190,65 +236,20 @@ footer p {
     }
 }
 
-/* styling for the modal
-.pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
-
-.pModal {
-    background-color: #6DC5D1;
-    color: white;
+@keyframes waveText {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #6DC5D1;
-    color: white;
-}
-
-.modal-body {
-    padding: 2px 16px;
-}
-
-.modal-footer {
-    padding: 25px 20px;
-    background-color: #6DC5D1;
-    color: white;
-}
-
-.modal-content {
-    position: relative;
-    background-color: #FDE49E;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #DD761C;
-    width: 35%;
-    box-shadow: 0 4px 8px 0 ;
-}
-
-.btn-btn-secondary {
-    color: #DD761C;
-    background-color: white;
-    float: right;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.btn-btn-primary {
-    color: #DD761C;
-    background-color: white;
-    float: right;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.btn-close {
-    float: right;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* Stylings for the input form */

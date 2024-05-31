@@ -27,12 +27,13 @@ eventType = document.getElementById('event-type');
     console.log(data.value);
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
+    const actualJokeContainer = document.getElementById('joke-container')
     // Add the values to snatch from the API object to deliver random joke will go below this comment.
     jokeEl.textContent = data.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);
-    document.body.appendChild(jokeContainer);
+    actualJokeContainer.appendChild(jokeContainer);
   });
 }
 
@@ -40,7 +41,7 @@ eventType = document.getElementById('event-type');
 
   createRandomJoke();
 
-  
+
 
 // // ----------------- Event listener section below-----------------
 

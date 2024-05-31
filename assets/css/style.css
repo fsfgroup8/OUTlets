@@ -11,133 +11,12 @@
 }
 
 body {
-    background-color: #FDE49E;
-}
-
-/* styles website name on upper-left corner of webpage */
-#outlets {
-    font-size: 3em !important;
-}
-
-/* this section styles header & nav bar */
-#header {
-    background-color: black !important;
-    margin: 0 !important;
-}
-
-#header a {
-    color: white;
-}
-
-#header img, li {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    background-color: #fde49ec5;
 }
 
 header img {
-    display: flex !important;
     height: 100px !important;
     width: 165px !important;
-}
-
-#find-adventure {
-    font-size: 2em !important;
-    color: #FEB941 !important;
-    animation: waveText 2s linear;
-}
-
-@keyframes waveText {
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-10px);
-    }
-    50% {
-        transform: translateX(10px);
-    }
-    75% {
-        transform: translateX(-10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-/* Hero section styles */
-#hero-section {
-    height: 100vh !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    background-image: url(../images/OUTlets_hero.png) !important;
-    background-size: cover;
-    background-position: center;
-    margin: 0 !important;
-    border-bottom: solid black 5px;
-    border-top: solid black 5px;
-    color: black !important;
-}
-
-#hero-section p {
-    padding-bottom: 27%;
-}
-
-/* Main section styles */
-#main-section {
-    width: 50%;
-    height: 50vh !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    background-color: #FDE49E !important;
-    color: black !important;
-    margin: auto;
-}
-
-.questionaire {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 1.5em;
-    background-color: #FDE49E;
-    border: solid black 3px;
-}
-
-#search-button {
-    margin-top: 1em;
-    border: solid black 2px;
-}
-
-/* Bottom section styles */
-#bottom-section {
-    height: 20vh !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    background-color: #FDE49E !important;
-    color: black !important;
-    border-bottom: dashed black 10px;
-}
-
-/* Footer section styles */
-#footer {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background-color: black !important;
-    margin: 0 !important;
-    padding: 1rem 0;
-    height: auto;
-}
-
-#footer h3, #footer p, #footer li, #footer a {
-    display: flex !important;
-    justify-content: center !important;
 }
 
 footer h3 {
@@ -156,42 +35,19 @@ footer p {
     color: #FEB941 !important;
 }
 
-/* Responsive styles */
-@media (max-width: 992px) {
-    #nav-bar {
-        flex-direction: column;
-    }
-
-    #header img {
-        height: 80px !important;
-        width: auto !important;
-    }
-
-    #back {
-        font-size: 1.5em !important;
-    }
-
-    #main-section {
-        padding: 1rem;
-    }
-
-    #footer {
-        padding: 0.5rem 0;
-    }
-
-    #hero-section, #main-section, #bottom-section {
-        height: auto !important;
-        padding: 2rem 1rem;
-    }
-
-    #hero-section p {
-        padding-bottom: 2rem;
-    }
+.questionaire {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5em;
+    background-color: #FDE49E;
+    border: solid black 3px;
 }
 
 /* styling for the modal
 .pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
-
 .pModal {
     background-color: #6DC5D1;
     color: white;
@@ -251,3 +107,146 @@ footer p {
 }
 
 /* Stylings for the input form */
+
+/* styles website name on upper-left corner of webpage */
+#outlets {
+    font-size: 3em !important;
+}
+
+/* this section styles header & nav bar */
+#header {
+    background-color: black !important;
+    margin: 0 !important;
+}
+
+#header a {
+    color: white;
+}
+
+#header img, li {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#find-adventure {
+    font-size: 2em !important;
+    color: #FEB941 !important;
+    animation: waveText 2s linear;
+}
+
+/* Hero section styles */
+#hero-section {
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    background-image: url(../images/OUTlets_hero.png) !important;
+    background-size: cover;
+    background-position: center;
+    margin: 0 !important;
+    border-bottom: solid black 5px;
+    border-top: solid black 5px;
+    color: black !important;
+}
+
+#hero-section p {
+ font-size: 1.5em;
+}
+
+#joke-container div {
+ color: white;
+}
+
+/* Main section styles */
+#main-section {
+    width: 50%;
+    height: 50vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    color: black !important;
+    margin: auto;
+}
+
+#search-button {
+    margin-top: 1em;
+    border: solid black 2px;
+}
+
+/* Bottom section styles */
+#bottom-section {
+    height: 20vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    color: black !important;
+    border-bottom: dashed black 10px;
+}
+
+/* Footer section styles */
+#footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: black !important;
+    margin: 0 !important;
+    padding: 1rem 0;
+    height: auto;
+}
+
+#footer h3, #footer p, #footer li, #footer a {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #header img {
+        height: 80px !important;
+        width: auto !important;
+    }
+
+    #back {
+        font-size: 1.5em !important;
+    }
+
+    #main-section {
+        padding: 1rem;
+    }
+
+    #footer {
+        padding: 0.5rem 0;
+    }
+
+    #hero-section, #main-section, #bottom-section {
+        height: auto !important;
+        padding: 2rem 1rem;
+    }
+
+    #hero-section p {
+        padding-bottom: 2rem;
+    }
+}
+
+@keyframes waveText {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -5,7 +5,7 @@ const eventName = localStorage.getItem('eventSelection');
 const clientId = 'NDE4MTc1OTZ8MTcxNjY2OTE4NC43MTg5Nw';
 const apiKey = 'efd618d723ac9af1b3cb310dd19590338cd98b5bd32204a2e633c7bdcfb2f5f9';
 
-// Check if cityName is available to construct the URL
+// Checks if cityName is available to construct the URL
 if (cityName) {
   const url = `https://api.seatgeek.com/2/venues?city=${cityName}&client_id=${clientId}`;
 
@@ -18,8 +18,11 @@ if (cityName) {
     headers: headers,
   };
 
+
   // ----------------- Functions section below -----------------
 
+
+  // Fetches Events API
   fetch(url, options)
     .then(response => {
       if (!response.ok) {
@@ -38,6 +41,10 @@ if (cityName) {
 }
 
 // ----------------- Event listener section below -----------------
+
+
+
+
 
 
 

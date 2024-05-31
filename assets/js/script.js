@@ -9,12 +9,10 @@ const fetchAPIButton = document.getElementById('fetch-api-button');
 // // ----------------- Functions section below -----------------
 
 
-
+  // Fetches & renders Chuck Norris Jokes
   const createRandomJoke = function(data) {
     fetch('https://api.chucknorris.io/jokes/random', {
-  // The browser fetches the resource from the remote server.
-  // The browser will then update new created element jokeEl with the downloaded resource.
-})
+  })
   .then(function (response) {
     return response.json();
   })
@@ -23,31 +21,28 @@ const fetchAPIButton = document.getElementById('fetch-api-button');
     const jokeContainer = document.createElement('div')
     const jokeEl = document.createElement('p');
     const actualJokeContainer = document.getElementById('joke-container')
-    // Add the values to snatch from the API object to deliver random joke will go below this comment.
+
     jokeEl.textContent = data.value;
     jokeEl.setAttribute('style', 'color: black');
 
     jokeContainer.append(jokeEl);
     actualJokeContainer.appendChild(jokeContainer);
   });
-}
+} 
+
+createRandomJoke();
 
 
+// ----------------- Event listener section below-----------------
 
-  createRandomJoke();
-
-
-
-// // ----------------- Event listener section below-----------------
-
-// // Event listener for html landing page search button.
+// Event listener for html landing page search button.
 searchBtn.addEventListener('click', function() {
   const modal = document.getElementById('exModal');
   const modalInstance = new bootstrap.Modal(modal);
   modalInstance.show();
 });
 
-
+// Saves user's selections to local storage & goes on to the next page of the site
 fetchAPIButton.addEventListener('click', function() {
   const citySelection = cityList.value;
   const eventSelection = eventType.value;
@@ -57,4 +52,12 @@ fetchAPIButton.addEventListener('click', function() {
 
   window.location.href = '/index2.html'
 })
+
+
+
+
+
+
+
+
 

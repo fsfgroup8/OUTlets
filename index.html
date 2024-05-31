@@ -41,58 +41,9 @@
     <div id="main-section" class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">Find Adventure</h1>
         <div class="col-lg-6 mx-auto pt-1">
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button id="search-button" type="button" class="btn btn-success btn-lg px-4 gap-3">Let's Go!</button>
-          </div>
-        </div>
-    </div>
 
-    <!-- The button on line 50 needs to actually be the button on line 45 ^ -->
-    <!-- <button class="pModal">Let's Go</button> -->
-
-    <!-- Set-up for the modal -->
-
-    <div id="exModal" class="modal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Selection Confirmation</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
-          </div>
-          <div class="modal-body">
-            <p>Are you happy with your selections?
-            If so, Let's Go! <br> If not, go back and edit your selections!<br>
-            No worries, we'll wait for you! 
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn-btn-secondary" data-bs-dismiss="modal">Edit Selections</button>
-            <button type="button" class="btn-btn-primary">Let's Go!</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- start of form/questionaire. This may need to be moved up above the modal...
-      I wasn't 100% sure where it should go. -->
+      <!-- Form -->
       <div class="questionaire">
-        <label for="form" class="form-label">Name:</label>
-        <input type="text" class="form-control" id="form" placeholder="enter your preferred name">
-    </div>
-  
-    <div class="questionaire">
-        <label class="age" for="age range">Age Range:</label>
-        <select class="form-select" id="age-range" aria-label="age range">
-        <option selected>Select One</option>
-        <option value="1">18-25</option>
-        <option value="2">26-33</option>
-        <option value="3">34-41</option>
-        <option value="4">42-49</option>
-        <option value="5">50-60</option>
-        </select>
-    </div>
-  
-    <div class="questionaire">
         <label class="city-list" for="list of cities">Location:</label>
         <select class="form-select" id="city-list1" aria-label="list of cities">
         <option selected>Select One</option>
@@ -141,23 +92,6 @@
     </div>
   
     <div class="questionaire">
-        <label class="hobby-list" for="list of hobbies">Hobbies:</label>
-        <select class="form-select" id="hobby-list1" aria-label="hobbies option">
-        <option selected>Select One</option>
-        <option value="1">Health & Fitness</option>
-        <option value="2">Sports</option>
-        <option value="3">Photography & Videography</option>
-        <option value="4">Concerts & Music</option>
-        <option value="5">Comedy Shows</option>
-        <option value="6">Outdoor Adventures</option>
-        <option value="7">Cooking & Baking</option>
-        <option value="8">Gaming</option>
-        <option value="9">Self-Care</option>
-        <option value="10">Art</option>
-        </select>
-    </div>
-  
-    <div class="questionaire">
         <label class="event-type" for="event type">Event Type:</label>
         <select class="form-select" id="event-type" aria-label="event type option">
         <option selected>Select One</option>
@@ -169,8 +103,35 @@
         </select>
     </div>
 
-<!-- Joke for bottom of page above footer -->
-<div id="jokeContainer"></div>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button id="search-button" type="button" class="btn btn-success btn-lg px-4 gap-3">Let's Go!</button>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="exModal" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Selection Confirmation</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+          </div>
+          <div class="modal-body">
+            <p>Are you happy with your selections?
+            If so, Let's Go! <br> If not, go back and edit your selections!<br>
+            No worries, we'll wait for you! 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-secondary" data-bs-dismiss="modal">Edit Selections</button>
+            <button type="button" class="btn-btn-primary">Let's Go!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom of page -->
     <div id="bottom-section" class="py-5 text-center">
         <h2>Plenty of People Die from Boredom Everyday... Don't Be One of Them!</h2>
     </div>

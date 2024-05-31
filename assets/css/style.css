@@ -86,22 +86,21 @@ header img {
 
 /* Main section styles */
 #main-section {
+    width: 50%;
     height: 50vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     background-color: #FDE49E !important;
-    margin: 0 !important;
     color: black !important;
+    margin: auto;
 }
 
 .questionaire {
     display: flex;
-    width: 20%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: auto;
     color: black;
     font-size: 1.5em;
     background-color: #FDE49E;
@@ -109,18 +108,18 @@ header img {
 }
 
 #search-button {
+    margin-top: 1em;
     border: solid black 2px;
 }
 
 /* Bottom section styles */
 #bottom-section {
-    height: 30vh !important;
+    height: 20vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     background-color: #FDE49E !important;
     color: black !important;
-    margin: 0 !important;
     border-bottom: dashed black 10px;
 }
 

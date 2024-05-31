@@ -1,14 +1,9 @@
 // // ----------------- Global variables section below -----------------
 
-searchBtn = document.getElementById('search-button');
-ageRange = document.getElementById('age-range');
-cityList = document.getElementById('city-list1');
-hobbyList = document.getElementById('hobby-list1');
-eventType = document.getElementById('event-type');
-// I created variables for the relevant form inputs and submit button
-
-
-// const jokeDiv = document.getElementById('joke-div');
+const searchBtn = document.getElementById('search-button');
+const cityList = document.getElementById('city-list');
+const eventType = document.getElementById('event-type');
+const fetchAPIButton = document.getElementById('fetch-api-button');
 
 
 // // ----------------- Functions section below -----------------
@@ -45,14 +40,21 @@ eventType = document.getElementById('event-type');
 
 // // ----------------- Event listener section below-----------------
 
-
-// searchBtn.addEventListener('click', function() {
-// console.log(searchBtn)
-// })
+// // Event listener for html landing page search button.
 searchBtn.addEventListener('click', function() {
   const modal = document.getElementById('exModal');
   const modalInstance = new bootstrap.Modal(modal);
   modalInstance.show();
 });
-// // Event listener for html landing page search button.
-// })
+
+
+fetchAPIButton.addEventListener('click', function() {
+  const citySelection = cityList.value;
+  const eventSelection = eventType.value;
+
+  localStorage.setItem('citySelection', citySelection);
+  localStorage.setItem('eventSelection', eventSelection);
+
+  window.location.href = '/index2.html'
+})
+

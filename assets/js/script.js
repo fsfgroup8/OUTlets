@@ -11,7 +11,7 @@ const fetchAPIButton = document.getElementById('fetch-api-button');
 
   // Fetches & renders Chuck Norris Jokes
   const createRandomJoke = function(data) {
-    fetch('https://api.chucknorris.io/jokes/random?category=history', {
+    fetch('https://api.chucknorris.io/jokes/random?category=history,dev,money,sport,science,animal', {
       // Here is the url with the  different categories. We can decide which we want https://api.chucknorris.io/jokes/categories
   })
   .then(function (response) {

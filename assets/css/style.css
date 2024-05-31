@@ -30,13 +30,11 @@ body {
 }
 
 #header img, li {
-    display: flex !important;
     justify-content: center !important;
     align-items: center !important;
 }
 
 header img {
-    display: flex !important;
     height: 100px !important;
     width: 165px !important;
 }
@@ -81,7 +79,11 @@ header img {
 }
 
 #hero-section p {
-    padding-bottom: 27%;
+ font-size: 1.5em;
+}
+
+#joke-container div {
+ color: white;
 }
 
 /* Main section styles */

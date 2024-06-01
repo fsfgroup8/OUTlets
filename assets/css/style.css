@@ -155,10 +155,7 @@ footer p {
 
 #hero-section p {
  font-size: 1.5em;
-}
-
-#joke-container div {
- color: white;
+ padding-bottom: 25%;
 }
 
 /* Main section styles */

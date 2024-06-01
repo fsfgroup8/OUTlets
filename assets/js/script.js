@@ -6,35 +6,7 @@ const eventType = document.getElementById('event-type');
 const fetchAPIButton = document.getElementById('fetch-api-button');
 
 
-// ----------------- Functions section below -----------------
-
-  // Fetches & renders Chuck Norris Jokes
-  const createRandomJoke = function(data) {
-
-    // Here is the url with the  different categories. We can decide which we want https://api.chucknorris.io/jokes/categories
-    fetch('https://api.chucknorris.io/jokes/random?category=history,dev,money,sport,science,animal', {
-  })
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
-    console.log(data.value);
-    const jokeContainer = document.createElement('div')
-    const jokeEl = document.createElement('p');
-    const actualJokeContainer = document.getElementById('joke-container')
-
-    jokeEl.textContent = data.value;
-    jokeEl.setAttribute('style', 'color: black');
-
-    jokeContainer.append(jokeEl);
-    actualJokeContainer.appendChild(jokeContainer);
-  });
-} 
-
-createRandomJoke();
-
-
-// ----------------- Event listener section below-----------------
+// ----------------- Functions & event listener sections below -----------------
 
 // Event listener for html landing page search button.
 searchBtn.addEventListener('click', function() {

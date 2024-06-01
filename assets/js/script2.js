@@ -38,6 +38,23 @@ if (cityName) {
     });
 } else {
   console.error('City name is not available in localStorage.');
+
+  const suggestionContainer = document.createElement('div');
+  const eventType = document.createElement('p');
+  const eventLocation = document.createElement('p');
+
+  suggestionContainer.textContent({
+        eventType: 'eventType',
+        eventLocation: 'eventLocation'
+  })
+  
+  const mainSection = document.getElementById('main-section');
+
+
+  suggestionContainer.appendChild(eventType, eventLocation);
+  mainSection.appendChild(suggestionContainer);
+  
+
 }
 
 // ----------------- Event listener section below -----------------

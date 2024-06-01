@@ -1,15 +1,18 @@
+/* styles all */
 * {
     font-family: "Black And White Picture", system-ui !important;
     font-weight: 400 !important;
     font-style: normal !important;
 }
 
+/* styles root */
 :root {
     box-sizing: border-box;
     margin: auto;
     padding: 0;
 }
 
+/* styles elements */
 header img {
     display: flex !important;
     height: 100px !important;

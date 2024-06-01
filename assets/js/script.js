@@ -51,7 +51,7 @@ fetchAPIButton.addEventListener('click', function() {
   localStorage.setItem('citySelection', citySelection);
   localStorage.setItem('eventSelection', eventSelection);
 
-  window.location.href = '/index2.html'
+  window.location.href = '/index2.html';
 })
 
 

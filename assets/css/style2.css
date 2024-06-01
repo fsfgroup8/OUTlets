@@ -13,6 +13,10 @@
 }
 
 /* styles elements */
+body {
+    background-color: #fde49ec5;
+}
+
 header img {
     display: flex !important;
     height: 100px !important;
@@ -34,6 +38,34 @@ footer a {
 footer p {
     color: #FEB941 !important;
 }
+
+/* Styles for event containers */
+.event-container {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .event-container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styles for event images */
+  .event-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for event type and location */
+  .event-container p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: black;
+  }
 
 /* styles website name on upper-left corner of webpage */
 #outlets {
@@ -77,15 +109,44 @@ footer p {
     color: #FEB941 !important;
 }
 
-/* Main section styles */
-#main-section {
-    height: 100vh;
-    margin: 0 !important;
-    border-bottom: solid black 5px;
+#top {
     border-top: solid black 5px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top h1 {
+    border-bottom: solid black 5px;
+    font-size: 5em;
+}
+
+/* Styles for the events section */
+#events-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+
+/* Chuck Norris Jokes */
+#joke-container {
+    height: 100vh;
     border-bottom: dashed black 10px;
-    background-color: #fde49ec5;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#joke-container p {
+    padding: 35px 70px 0 70px 
 }
 
 /* Footer section styles */
@@ -128,3 +189,4 @@ footer p {
         padding: 0.5rem 0;
     }
 }
+  

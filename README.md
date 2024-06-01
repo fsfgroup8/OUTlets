@@ -1,14 +1,9 @@
-# OUTLet
-
-## Links
-
-<a href="https://github.com/fsfgroup8/OUTlets">GitHub Repo: Group 8</a><br>
-<a href="https://fsfgroup8.github.io/OUTlets/">Deployed Link: Group 8</a>
+# OUTlet
 
 ## Description
 
-Are you tired of sitting on your couch itching to go out but no where to go and no one to go with? 
-Welcome to OUTLet's, the perfect place to find a new event to attend in your area. 
+Are you tired of sitting on your couch itching to go out but no where to go and no one to go with?<br> 
+Welcome to OUTlet, the perfect place to find a new event to attend in your area. 
 
 ## Visuals
 
@@ -18,6 +13,7 @@ Welcome to OUTLet's, the perfect place to find a new event to attend in your are
 
 ## Contributors
 
+<u>BootCamp Students</u><br>
 <a href="https://github.com/AndresAlbornozgil">Andres Albornoz</a><br>
 <a href="https://github.com/Yearofthebenji">Christian Cavazos</a><br>
 <a href="https://github.com/galessalazar">Gale Salazar</a><br>
@@ -25,6 +21,16 @@ Welcome to OUTLet's, the perfect place to find a new event to attend in your are
 <a href="https://github.com/dstrzykalski">Daved Strzykalski</a><br>
 <a href="https://github.com/0-Sunny-0">Sunny Finch</a>
 
+<u>BootCamp Tutors:</u><br>
+Vinnie Lopez<br>
+Wesley Clements<br>
+
+
 ## License
 
-N/A
+Not applicable at this time.
+
+## Links
+
+<a href="https://github.com/fsfgroup8/OUTlets">GitHub Repo: Group 8</a><br>
+<a href="https://fsfgroup8.github.io/OUTlets/">Deployed Link: Group 8</a>

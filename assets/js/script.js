@@ -26,8 +26,16 @@ fetchAPIButton.addEventListener('click', function() {
   window.location.replace("./index2.html")
 })
 
+const enableSearchButtons = function() {
+  // console.log('hello');
+  
+  if(cityList.value !== 'Select One' && eventType.value !== 'Select One') {
+    searchBtn.removeAttribute('disabled');
+  }
+}
 
-
+cityList.addEventListener('change', enableSearchButtons);
+eventType.addEventListener('change', enableSearchButtons);
 
 
 

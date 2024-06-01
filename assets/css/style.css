@@ -10,7 +10,8 @@
 }
 @keyframes dance {
     0% {
-      transform: translateY(0);
+      transform: translateY(0)
+      /* Adding css */
     }
     50% {
       transform: translateY(-10px);

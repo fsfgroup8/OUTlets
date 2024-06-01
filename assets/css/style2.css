@@ -135,16 +135,18 @@ footer p {
 
 /* Chuck Norris Jokes */
 #joke-container {
-    height: 30vh;
+    height: 100vh;
     border-bottom: dashed black 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 #joke-container p {
-    padding: 0 100px 0 100px;
+    padding: 35px 70px 0 70px 
 }
 
 /* Footer section styles */

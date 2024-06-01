@@ -26,3 +26,5 @@ Welcome to OUTLet's, the perfect place to find a new event to attend in your are
 <a href="https://github.com/0-Sunny-0">Sunny Finch</a>
 
 ## License
+
+N/A

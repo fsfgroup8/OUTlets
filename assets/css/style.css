@@ -1,8 +1,24 @@
 * {
-    font-family: "Black And White Picture", system-ui !important;
+    font-family: 'Black And White Picture';
     font-weight: 400 !important;
     font-style: normal !important;
 }
+
+#font-header{
+    animation: dance 1s ease-in-out infinite;
+    
+}
+@keyframes dance {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 :root {
     box-sizing: border-box;
@@ -47,6 +63,7 @@ header img {
     animation: waveText 2s linear;
 }
 
+
 @keyframes waveText {
     0% {
         transform: translateX(0);
@@ -65,6 +82,8 @@ header img {
     }
 }
 
+
+
 /* Hero section styles */
 #hero-section {
     height: 100vh !important;
@@ -78,12 +97,20 @@ header img {
     border-bottom: solid black 5px;
     border-top: solid black 5px;
     color: black !important;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+#font-summery {
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #hero-section p {
     padding-bottom: 27%;
 }
 
+
+  
 /* Main section styles */
 #main-section {
     height: 50vh !important;
@@ -93,6 +120,7 @@ header img {
     background-color: #FDE49E !important;
     margin: 0 !important;
     color: black !important;
+    font-family: "times new roman";
 }
 
 .questionaire {
@@ -109,9 +137,32 @@ header img {
 }
 
 #search-button {
-    border: solid black 2px;
+    border: solid rgb(0, 0, 0) 2px;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
+#search-button
+.search-button,
+.search-button *,
+.search-button ::after,
+.button ::before,
+.button ::after,
+.button ::before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.Search-button {-webkit-tap-highlight-color: transparent;
+    -webkit-appearance: ;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+
+
+
+}
 /* Bottom section styles */
 #bottom-section {
     height: 30vh !important;
@@ -249,6 +300,9 @@ footer p {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    font-family: ;
 }
 
 /* Stylings for the input form */
+
+

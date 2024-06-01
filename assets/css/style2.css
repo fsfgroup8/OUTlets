@@ -1,6 +1,6 @@
 * {
-    font-family: "Black And White Picture", system-ui !important;
-    font-weight: 400 !important;
+    font-family: "Black And White Picture","Times New Roman", Times, serif, Georgia, 'Times New Roman', Times, serif system-ui !important;
+    font-weight:  !important;
     font-style: normal !important;
 }
 
@@ -73,6 +73,11 @@ header img {
     border-bottom: dashed black 10px;
     background-color: #FDE49E;
     padding: 2rem;
+    
+}
+
+#font-header{
+font-family: 'Times New Roman', Times, serif !important; 
 }
 
 /* Footer section styles */

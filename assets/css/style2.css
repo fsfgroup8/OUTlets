@@ -143,6 +143,10 @@ footer p {
     font-size: 2em;
 }
 
+#joke-container p {
+    padding: 0 100px 0 100px;
+}
+
 /* Footer section styles */
 #footer {
     display: flex !important;

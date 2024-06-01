@@ -1,15 +1,18 @@
+/* styles all */
 * {
     font-family: "Black And White Picture", system-ui !important;
     font-weight: 400 !important;
     font-style: normal !important;
 }
 
+/* styles root */
 :root {
     box-sizing: border-box;
     margin: auto;
     padding: 0;
 }
 
+/* styles elements */
 body {
     background-color: #fde49ec5;
 }
@@ -35,6 +38,7 @@ footer p {
     color: #FEB941 !important;
 }
 
+/* styles classes */
 .questionaire {
     display: flex;
     flex-wrap: wrap;
@@ -46,8 +50,7 @@ footer p {
     border: solid black 3px;
 }
 
-/* styling for the modal
-.pModal will need to be changed to reflect Let's Go button on current HTML page 1. */
+/* styles modal */
 .pModal {
     background-color: black;
     color: white;
@@ -108,8 +111,6 @@ footer p {
     text-decoration: none;
     cursor: pointer;
 }
-
-/* Stylings for the input form */
 
 /* styles website name on upper-left corner of webpage */
 #outlets {
@@ -236,6 +237,7 @@ footer p {
     }
 }
 
+/* animates Find Adventure Text on upper right corner of screen */
 @keyframes waveText {
     0% {
         transform: translateX(0);

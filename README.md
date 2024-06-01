@@ -3,7 +3,7 @@
 ## Links
 
 <a href="https://github.com/fsfgroup8/OUTlets">GitHub Repo: Group 8</a><br>
-<a href="">Deployed Link: Group 8</a>
+<a href="https://fsfgroup8.github.io/OUTlets/">Deployed Link: Group 8</a>
 
 ## Description
 

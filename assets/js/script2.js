@@ -61,6 +61,9 @@ function renderEvents(events) {
 
     eventLink.appendChild(eventImage);
 
+    const eventTitle = document.createElement('p');
+    eventTitle.textContent =  `${event.title}`;
+
     const eventType = document.createElement('p');
     eventType.textContent = `Type: ${event.type}`;
 
@@ -68,6 +71,7 @@ function renderEvents(events) {
     eventLocation.textContent = `Location: ${event.venue.name}`;
 
     suggestionContainer.appendChild(eventLink);
+    suggestionContainer.appendChild(eventTitle);
     suggestionContainer.appendChild(eventType);
     suggestionContainer.appendChild(eventLocation);
     mainSection.appendChild(suggestionContainer);
@@ -87,9 +91,9 @@ const createRandomJoke = function(data) {
 })
 .then(function (data) {
   console.log(data.value);
-  const jokeContainer = document.createElement('div')
+  const jokeContainer = document.createElement('div');
   const jokeEl = document.createElement('p');
-  const actualJokeContainer = document.getElementById('joke-container')
+  const actualJokeContainer = document.getElementById('joke-container');
 
   jokeEl.textContent = data.value;
   jokeEl.setAttribute('style', 'color: black');

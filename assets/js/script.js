@@ -26,6 +26,7 @@ fetchAPIButton.addEventListener('click', function() {
   window.location.replace("./index2.html")
 })
 
+// Enables let's go button to work once fields are completed
 const enableSearchButtons = function() {
   // console.log('hello');
   

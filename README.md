@@ -7,7 +7,7 @@ Welcome to OUTlet, the perfect place to find a new event to attend in your area.
 
 ## Visuals
 
-<img src="" alt="website screenshot"/>
+<img src="assets/images/OUTlets_hero.png" alt="website screenshot"/>
 <img src="" alt="website screenshot"/>
 <img src="" alt="website screenshot"/>
 

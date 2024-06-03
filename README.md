@@ -24,7 +24,7 @@ Welcome to OUTlet, the perfect place to find a new event to attend in your area.
 <u>BootCamp Tutors:</u><br>
 Vinnie Lopez<br>
 Wesley Clements<br>
-
+Jaytee Padilla<br>
 
 ## License
 

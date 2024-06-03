@@ -7,9 +7,11 @@ Welcome to OUTlet, the perfect place to find a new event to attend in your area.
 
 ## Visuals
 
-<img src="assets/images/OUTlets_hero.png" alt="website screenshot"/>
-<img src="" alt="website screenshot"/>
-<img src="" alt="website screenshot"/>
+<img src="assets/images/hero_section.JPG" alt="website screenshot"/>
+<img src="assets/images/find_adventure.JPG" alt="website screenshot"/>
+<img src="assets/images/letsgo_modal.JPG" alt="website screenshot"/>
+<img src="assets/images/choose_event.JPG" alt="website screenshot"/>
+<img src="assets/images/chuck_norris_joke.JPG" alt="website screenshot"/>
 
 ## Contributors
 
